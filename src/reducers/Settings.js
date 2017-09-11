@@ -38,7 +38,7 @@ export default function settings(state = initialState, action) {
 
             if(action.category === "income") {
                 newState = state.settings.income;
-                newState.splice(action.index, 1);
+                newState.splice(action.payload, 1);
 
                 return {...state, settings: {...state.settings, income: newState}}
             } else if(action.category === "expense") {

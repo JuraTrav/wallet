@@ -1,0 +1,58 @@
+.add-transaction {
+  margin: 30px 0;
+  width: 100%;
+  .form-item {
+    display: inline-block;
+    padding: 0 10px;
+    width: calc(25% - 20px);
+    label {
+      font-size: 14px;
+      width: 100%;
+    }
+    input, select {
+      width: calc(100% - 20px);
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid grey;
+      outline: 0;
+    }
+    select {
+      width: 100%;
+      background-color: transparent;
+    }
+    
+    div {
+      padding: 8px;
+      label {
+        cursor: pointer;
+        svg {
+          font-size: 18px;
+        }
+        .income{
+          color: green;
+        }
+        .outcome {
+          color: red;
+        }
+        input[type=radio] {
+          width: 20px;
+          margin: 0;
+          vertical-align: middle;
+          
+        }
+      }
+    }
+  }
+  .date {
+    width: calc(18% - 20px);
+    input {
+      padding: 7px 10px;
+    }
+  }
+  .categories, .sum {
+    width: calc(12% - 20px);
+  }
+  .categories {
+    text-align: center;
+  }
+}

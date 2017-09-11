@@ -1,0 +1,26 @@
+table, tbody, thead, tfoot {
+  width: 100%;
+  border-collapse: collapse;
+  tr, td, th {
+    text-align: center;
+    padding: 20px;
+  }
+  thead {
+    border-bottom: 1px solid grey;
+
+  }
+  tbody {
+    div {
+      cursor: pointer
+    }
+  }
+  .income {
+    color: green;
+  }
+  .outcome {
+    color: red;
+  }
+  tfoot {
+    border-top: 1px solid grey;
+  }
+}

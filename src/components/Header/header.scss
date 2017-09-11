@@ -1,0 +1,27 @@
+.header {
+  text-align: center;
+  margin: 0 auto;
+  &-tabs{
+    display: inline-block;
+    width: 100%;
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      li {
+        display: inline-block;
+        width: calc(100% / 3);
+        padding: 15px 0;
+        a {
+          width: 100%;
+          text-align: center;
+          text-decoration: none;
+          color: black;
+        }
+        &.active{
+          border-bottom: 2px solid darkgreen;
+        }
+      }
+    }
+  }
+}

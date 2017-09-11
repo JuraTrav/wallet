@@ -1,0 +1,28 @@
+@import "./containers/app";
+@import "../../components/Header/header";
+@import "../../components/Category/category";
+@import "../../components/CategoryList/categorylist";
+@import "../../components/Transactions/transactions";
+@import "../../components/NewTransaction/newtransaction";
+@import "../../components/TransactionTable/transactiontable";
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+.container {
+  text-align: center;
+  width: 980px;
+  height: 100vh;
+  margin: 0 auto;
+  main {
+    height: auto;
+    margin: 40px 0;
+    padding: 10px 0;
+  }
+}

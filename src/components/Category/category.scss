@@ -1,0 +1,39 @@
+.category-add {
+    margin: 0 auto;
+    width: 50%;
+    .form-item {
+        display: inline-block;
+        padding: 0 10px;
+        width: calc(40% - 20px);
+        input, select {
+            width: calc(100% - 20px);
+            padding: 5px 10px;
+            border-radius: 5px;
+            border: 1px solid grey;
+            outline: 0;
+        }
+        select {
+            width: 100%;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            background-color: transparent;
+        }
+    }
+    .form-item-button {
+        display: inline-block;
+        padding: 0 10px;
+        width: calc(20% - 20px);
+        .disabled {
+            background-color: grey;
+        }        
+    }
+}
+
+.category-display {
+    margin-top: 50px;
+    div {
+        display: inline-block;
+        width: 50%;
+        vertical-align: top;
+    }
+}

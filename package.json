@@ -1,0 +1,35 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.0.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "node-sass": "^4.5.1",
+    "npm-run-all": "^4.0.1",
+    "react-icons": "^2.2.5",
+    "react-scripts": "0.9.5"
+  },
+  "devDependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.3",
+    "react-router": "^3.0.2",
+    "react-router-redux": "^4.0.8",
+    "redux": "3.6.0",
+    "redux-devtools-extension": "^2.13.0",
+    "redux-thunk": "^2.2.0"
+  },
+  "scripts": {
+    "watch-sass": "gulp watch-sass",
+    "build-sass": "gulp build-sass",
+    "start-js": "react-scripts start",
+    "start": "npm-run-all -p watch-sass start-js",
+    "build": "npm run build-sass && react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
